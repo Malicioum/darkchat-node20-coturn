@@ -34,5 +34,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/darkchat-node20-coturn:latest
-            ghcr.io/${{ github.repository_owner }}/darkchat-node20-coturn:${{ github.sha }}
+            ghcr.io/malicioum/darkchat-node20-coturn:latest
+            ghcr.io/malicioum/darkchat-node20-coturn:${{ github.sha }}
